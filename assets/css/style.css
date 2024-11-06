@@ -23,3 +23,14 @@ h3 {
 .sub-heading-color{
     color: var(--highlight-color);
 }
+
+/* Nav bar css */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar img.logo {
+    width: 30px;
+}
+   
