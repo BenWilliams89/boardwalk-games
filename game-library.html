@@ -249,19 +249,19 @@
                             <h2>Booking inquiry</h2>
                             <form action="success.html" method="GET">
                                 <div class="row">
-                                    <div class="col-12 col-lg-6 mb-3">
+                                    <div class="col-12 col-lg-4 mb-3">
                                         <label for="name" class="form-label">Full Name</label>
                                         <input class="form-control" id="name" name="name" type="text" required> 
                                     </div>
-                                    <div class="col-12 col-lg-6 mb-3">
+                                    <div class="col-12 col-lg-4 mb-3">
                                       <label for="phone" class="form-label">Phone number</label>
                                       <input class="form-control" id="phone" name="phone" type="number" required>
                                   </div>
-                                    <div class="col-12 col-lg-6 mb-3">
+                                    <div class="col-12 col-lg-4 mb-3">
                                         <label for="email" class="form-label">Email</label>
                                         <input class="form-control" id="email" name="email" type="email" required>
                                     </div>
-                                      <div class="col-12 col-lg-6 mb-3">
+                                      <div class="col-12 col-lg-8 mb-3">
                                         <label for="event-type" class="form-label">Select a Game</label>
                                         <select id="event-type" class="form-select" name="event-type" required>
                                             <option value="" selected>Monopoly</option>
@@ -271,14 +271,17 @@
                                             <option value="tournament">Critter Quest</option>
                                             <option value="kids-party">Exploding Kittens</option>
                                         </select>
+                                        </div>
+                                        <div class="col-12 col-lg-4 mb-3">
+                                          <label for="date" class="form-label">Requested Date</label>
+                                          <input class="form-control" id="date" name="date" type="date" required>
+                                      </div>
                                     </div>
-                                    <div class="col-12 mb-3">
-                                        <label for="message" class="form-label">Message</label>
-                                        <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
-                                    </div>
-                                </div>
-            
+                                  </div>
+                                  
+                                  <div>
                                 <button type="submit" class="btn custom-button-outline">Submit</button>
+                              </div>
                             </form>
                         </div>
                     </div>
