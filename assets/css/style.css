@@ -10,9 +10,12 @@
     --highlight-color-light: #7a9fc2;
 }
 /* global styles */
+
 body {
     font-family: var(--primary-font);
+    padding-top: 34.64px
 }
+
 h1,
 h2,
 h3 {
