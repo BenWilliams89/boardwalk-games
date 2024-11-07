@@ -63,6 +63,12 @@ h2 {
     
 }
 
+.custom-button-ben{
+    border-radius: none;
+    background-color: var(--highlight-color);
+    color:white;
+}
+
 /* Nav bar css */
 
 #navbar {
