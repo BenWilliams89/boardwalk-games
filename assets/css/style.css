@@ -66,8 +66,7 @@ h2 {
 }
 
 .custom-button-ben{
-    border-radius: none;
-    background-color: var(--highlight-color);
+        background-color: var(--highlight-color);
     color:white;
 }
 
@@ -134,6 +133,8 @@ h2 {
 
 #contact .social-links i:hover {
     color:var(--secondary-color);
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
